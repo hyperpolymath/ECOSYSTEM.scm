@@ -9,7 +9,7 @@
   '((version . "1.0.0")
     (schema-version . "1.0")
     (created . "2025-12-15")
-    (updated . "2025-12-15")
+    (updated . "2025-12-17")
     (project . "ECOSYSTEM.scm")
     (repo . "hyperpolymath/ECOSYSTEM.scm")))
 
@@ -31,6 +31,8 @@
       "Position-in-ecosystem schema"))))
 
 (define critical-next-actions
-  '((immediate . ())
-    (this-week . ())
-    (this-month . ())))
+  '((immediate . ("Review community feedback on SCM family specifications"))
+    (this-week . ("Announce SCM family on relevant developer forums"
+                  "Create unified GitHub Discussions"))
+    (this-month . ("Begin unified parser library design (Rust)"
+                   "Coordinate with STATE.scm repository for Phase 2"))))
