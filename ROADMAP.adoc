@@ -1,7 +1,11 @@
-// SPDX-License-Identifier: AGPL-3.0-or-later
+// SPDX-License-Identifier: PLMP-1.0-or-later
 = ECOSYSTEM.Scm Roadmap
 
 == Current Status
+
+Specification drafting phase.
+
+Handover (2026-01-18): spec draft exists with ABNF + JSON schema; examples and conformance tests still needed.
 
 Initial development phase.
 

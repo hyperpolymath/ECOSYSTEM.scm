@@ -1,12 +1,14 @@
 = SCM Format Family Standards Roadmap
 :author: Jonathan D.A. Jewell
-:revdate: 2025-12-15
+:revdate: 2026-01-18
 :toc:
 :toclevels: 3
 :sectnums:
 :icons: font
 
 == Executive Summary
+
+Handover (2026-01-18): standards track remains IETF Informational RFC; media-type registration draft exists and needs conformance examples.
 
 The **SCM Format Family** is a collection of declarative S-expression formats for software development context. This document outlines the unified standardisation strategy for the family.
 
@@ -430,7 +432,7 @@ draft-jewell-ecosystem-scm-00
 
 | IPR claims
 | Very Low
-| MIT licence, contributor agreement
+| PMPL-1.0 licence, contributor agreement
 |===
 
 == Timeline Summary

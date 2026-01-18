@@ -1,11 +1,11 @@
 = ECOSYSTEM.scm
-image:https://img.shields.io/badge/license-PMPL--1.0-blue.svg[License,link="https://github.com/hyperpolymath/palimpsest-license"]
+image:https://img.shields.io/badge/license-PLMP--1.0--or--later-blue.svg[License,link="https://github.com/hyperpolymath/palimpsest-license"]
 
 
 
 
 :author: Jonathan D.A. Jewell
-:revdate: 2025-12-15
+:revdate: 2026-01-18
 :toc:
 :toclevels: 3
 :sectnums:
@@ -13,6 +13,22 @@ image:https://img.shields.io/badge/license-PMPL--1.0-blue.svg[License,link="http
 :source-highlighter: rouge
 
 == Overview
+
+== Handover (2026-01-18)
+
+Current assets:
+
+* ABNF grammar: `spec/ecosystem.abnf`
+* JSON Schema: `spec/ecosystem.schema.json`
+* Family shared grammar: `spec/family/scm-core.abnf`
+* IANA considerations: `spec/IANA-CONSIDERATIONS.adoc`
+* Roadmaps: `ROADMAP.adoc`, `STANDARDS-ROADMAP.adoc`
+
+Next actions:
+
+* Add worked examples in `spec/` and README
+* Define conformance tests and fixtures
+* Finalize media-type registration text
 
 **ECOSYSTEM.scm** is a declarative S-expression format for describing software project ecosystems and inter-project relationships. It is part of the **SCM Format Family**.
 
@@ -123,7 +139,7 @@ Place in your repository root:
 
 [source,scheme]
 ----
-;; SPDX-License-Identifier: PMPL-1.0
+;; SPDX-License-Identifier: PLMP-1.0-or-later
 ;; ECOSYSTEM.scm - Project ecosystem context
 
 (ecosystem
