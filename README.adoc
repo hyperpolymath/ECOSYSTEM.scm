@@ -1,5 +1,5 @@
 = ECOSYSTEM.scm
-image:https://img.shields.io/badge/license-PLMP--1.0--or--later-blue.svg[License,link="https://github.com/hyperpolymath/palimpsest-license"]
+image::https://img.shields.io/badge/license-PLMP--1.0--or--later-blue.svg[License,link="https://github.com/hyperpolymath/palimpsest-license"]
 
 
 
