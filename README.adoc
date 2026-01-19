@@ -32,6 +32,14 @@ Next actions:
 
 **ECOSYSTEM.scm** is a declarative S-expression format for describing software project ecosystems and inter-project relationships. It is part of the **SCM Format Family**.
 
+== Handover Status (2026-01-20)
+
+The MVP v1.1 release is ready for handover:
+
+* Palimpsest Plasma `v1.1` release bundle at `https://github.com/hyperpolymath/palimpsest-plasma/releases/tag/v1.1` contains canonical PMPL-1.0 text, badge assets, MVP docs, and signature metadata.
+* Audits `pmpl-verify`/`pmpl-audit` have been run; logs live in `docs/release-log.adoc` and `docs/release-notes.adoc` within the release bundle.
+* Engineering handover briefing: share this README + release notes plus `mvp-v1.1-release.tar.gz` to IO so they can continue the next project.
+
 [source,scheme]
 ----
 (ecosystem

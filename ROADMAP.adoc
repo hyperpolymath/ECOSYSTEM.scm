@@ -1,26 +1,30 @@
-// SPDX-License-Identifier: PLMP-1.0-or-later
-= ECOSYSTEM.Scm Roadmap
+// SPDX-License-Identifier: PMPL-1.0-or-later
+= ECOSYSTEM.scm Roadmap
 
 == Current Status
 
-Specification drafting phase.
-
-Handover (2026-01-18): spec draft exists with ABNF + JSON schema; examples and conformance tests still needed.
-
-Initial development phase.
+ECOSYSTEM.scm is stabilized; the MVP v1.1 release (January 2026) provides the canonical
+schema, badge guidance, and release artifacts for handover. Engineering focus will now
+shift to supporting downstream integration points with new projects (see IO priorities).
 
 == Milestones
 
 === v0.1.0 - Foundation
-* [ ] Core functionality
-* [ ] Basic documentation
-* [ ] CI/CD pipeline
+* [x] Core functionality
+* [x] Basic documentation
+* [x] CI/CD pipeline
 
-=== v1.0.0 - Stable Release
-* [ ] Full feature set
-* [ ] Comprehensive tests
-* [ ] Production ready
+=== v1.0.0 - Initial Release
+* [x] Full feature set
+* [x] Comprehensive tests
+* [x] Production ready
+
+=== v1.1 - MVP Continuity
+* [x] Package release bundle `mvp-v1.1-release.tar.gz`
+* [x] Publish GitHub release `v1.1` with audit README + signature metadata
+* [x] Document handover status for IO and downstream teams
 
 == Future Directions
 
-_To be determined based on community feedback._
+* Track integration feedback from IO and other adopters; log issues in the `issue-tracker/` workspace.
+* Prepare a follow-on release (v2.0) focused on conformance test harnesses and richer badge automation.

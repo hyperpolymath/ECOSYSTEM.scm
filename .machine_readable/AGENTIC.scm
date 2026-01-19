@@ -1,5 +1,6 @@
-;; SPDX-License-Identifier: AGPL-3.0-or-later
+;; SPDX-License-Identifier: PMPL-1.0-or-later
 ;; AGENTIC.scm - AI agent interaction patterns for ecosystem.scm
+;; License: Palimpsest-MPL License 1.0
 
 (define agentic-config
   `((version . "1.0.0")
